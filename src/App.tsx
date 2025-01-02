@@ -11,7 +11,7 @@ const App: React.FC = () => {
         <Route path="/design" element={<Design />} />
       </Routes>
     </Router>
-  );
+  ); 
 };
 
 export default App;

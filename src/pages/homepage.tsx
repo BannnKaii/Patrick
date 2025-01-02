@@ -29,7 +29,7 @@ const LoginPage: React.FC = () => {
       // Sign in with Google using a popup
       await signInWithPopup(auth, googleProvider);
       alert("Login successful!");
-      navigate("/userpage"); // Navigate to UserPage after successful login
+      navigate("/design"); // Navigate to UserPage after successful login
     } catch (err: unknown) {
       if (err instanceof Error) {
         setError(err.message); // If the error is an instance of Error, safely access the message
